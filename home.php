@@ -9,37 +9,33 @@
 <body class="bg-gray-50 text-gray-800">
 
   <nav class="bg-gradient-to-r from-green-500 to-blue-600 text-white shadow-md fixed top-0 left-0 w-full z-50">
-    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-      <div class="flex items-center space-x-3">
-        <img src="https://cdn-icons-png.flaticon.com/512/2203/2203124.png" alt="Shop Logo" class="h-10 w-10">
-        <span class="text-xl font-bold">Smart Shop</span>
-      </div>
-      <div class="hidden md:flex space-x-6 text-lg">
-        <a href="home.php" class="hover:underline">Home</a>
-        <a href="recharge-information-table.php" class="hover:underline">Recharge list</a>
-        <a href="money-transfer-information.php" class="hover:underline">Transfer list </a>
-        <a href="recharge-form.php" class="hover:underline">Recharge</a>
-        <a href="money-transfer-form.php" class="hover:underline">Send Money</a>
-      </div>
-
-      <div class="md:hidden">
-        <button id="menu-toggle" class="focus:outline-none">
-          <svg class="w-8 h-8" fill="none" stroke="white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              d="M4 6h16M4 12h16M4 18h16"></path>
-          </svg>
-        </button>
-      </div>
+  <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+    <div class="flex items-center space-x-3">
+      <img src="https://cdn-icons-png.flaticon.com/512/2203/2203124.png" alt="Shop Logo" class="h-10 w-10">
+      <span class="text-xl font-bold">Smart Shop</span>
     </div>
-
-    <div id="mobile-menu" class="md:hidden hidden px-6 pb-4">
-      <a href="home.php" class="block py-2 hover:underline">Home</a>
-      <a href="recharge-information-table.php" class="block py-2 hover:underline">Recharge list</a>
-      <a href="money-transfer-information.php" class="block py-2 hover:underline">Transfer list </a>
-      <a href="recharge-form.php" class="block py-2 hover:underline">Recharge</a>
-      <a href="money-transfer-form.php" class="block py-2 hover:underline">Send Money</a>
+   
+    <div id="nav-links" class="hidden md:flex space-x-6 text-lg">
+      <a href="home.php" class="hover:underline block py-2">Home</a>
+      <a href="recharge-information-table.php" class="hover:underline block py-2">Recharge list</a>
+      <a href="money-transfer-information.php" class="hover:underline block py-2">Transfer list</a>
+      <a href="recharge-form.php" class="hover:underline block py-2">Recharge</a>
+      <a href="money-transfer-form.php" class="hover:underline block py-2">Send Money</a>
+      <a href="Logout.php" class="hover:underline block py-2">Sign out</a>
     </div>
-  </nav>
+    
+    <div class="md:hidden">
+      <button id="menu-toggle" class="focus:outline-none">
+        <svg class="w-8 h-8" fill="none" stroke="white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div id="mobile-menu" class="md:hidden hidden px-6 pb-4">
+  </div>
+</nav>
 
   <section class="text-center py-20 bg-gradient-to-r from-blue-500 to-indigo-700 text-white mt-16">
     <h1 class="text-4xl md:text-5xl font-bold mb-4"> Mobile Recharge & Money Transfer Shop</h1>
