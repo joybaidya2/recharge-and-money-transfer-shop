@@ -23,7 +23,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     }else{
         $full_name = $_POST["fullname"];
         if(!preg_match("/^[a-zA-Z .'-]+$/",$full_name)){
-           $full_nameErr = "Only letters and allowed space in name";
+           $full_nameErr = "Only letters and space allowed  in name";
            $isValid = false;
         }
     }
